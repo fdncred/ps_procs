@@ -136,6 +136,7 @@ fn get_arg_max() -> size_t {
     arg_max as size_t
 }
 
+#[derive(Debug)]
 pub struct PathInfo {
     pub name: String,
     pub exe: PathBuf,
